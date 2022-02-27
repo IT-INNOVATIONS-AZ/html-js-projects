@@ -4,7 +4,7 @@
 	justify-content: space-around;
 	height: 500px;
 	width: 500px;
-	position: relative;
+	position: absolute;
 	transition: 0.4s ease;
 }
 .boxes.big {
