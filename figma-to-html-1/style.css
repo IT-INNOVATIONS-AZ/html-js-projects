@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.card-bg {
+	background: linear-gradient(
+		90.02deg,
+		#f2bba9 0.02%,
+		#f6cab8 34.34%,
+		#f9d8c7 69.67%,
+		#fce5d4 99.98%
+	);
+	padding-top: 59px;
+	padding-bottom: 32px;
+	padding-left: 176px;
+	padding-right: 176px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.rec {
+	width: 192px;
+	height: 197px;
+	background: #fff;
+	border-radius: 11px;
+	box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: "Poppins";
+	color: #626375;
+}
+
+.circle {
+	width: 90px;
+	height: 90px;
+	background-image: url("./imgs/credit-card.png");
+	background-size: contain;
+	border-radius: 50%;
+}
